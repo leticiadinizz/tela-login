@@ -1,12 +1,12 @@
-import estilo from './Wellcome.module.css'
+import estilo from './Wellcome.module.css';
 
-function wellcome(){
+function Welcome() {
     return (
-        <main className={estilo.princpal}>
-            <p>Seja bem-vindo(a) á biblioteca</p>
-            <p>Para ter uma melhor esperiência, faça o login no site</p>
+        <main className={estilo.principal}>
+            <p>Seja bem-vindo(a) à biblioteca.</p>
+            <p>Para ter uma melhor experiência, faça o login no sistema</p>
         </main>
-    )
+    );
 }
 
-export default wellcome;
+export default Welcome;
